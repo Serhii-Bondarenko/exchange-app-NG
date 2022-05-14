@@ -1,0 +1,11 @@
+<div class="tb-row">
+  <div class="cur-info">
+    <img [src]="currency.icon" alt="{{currency.ccy}}"/>
+    <div class="cur-name">
+      <p>{{currency.ccy}}</p>
+      <p>{{currency.name}}</p>
+    </div>
+  </div>
+  <span>{{currency.buy.slice(0, 5)}}</span>
+  <span>{{currency.sale.slice(0, 5)}}</span>
+</div>

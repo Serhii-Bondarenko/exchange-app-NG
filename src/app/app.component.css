@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px;
+  gap: 60px;
+}
+
+app-currency-list {
+  flex: 1 1 60%;
+}
+
+app-converter {
+  flex: 0 1 30%;
+}

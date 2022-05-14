@@ -1,0 +1,26 @@
+.tb-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.tb-row .cur-info {
+  display: flex;
+  width: 160px;
+  align-items: center;
+}
+.tb-row .cur-info p:last-child {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.tb-row .cur-name {
+  padding-left: 40px;
+}
+
+.tb-row span {
+  padding-right: 40px;
+}

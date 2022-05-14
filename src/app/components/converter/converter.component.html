@@ -1,0 +1,39 @@
+<form class="calc" [formGroup]="formData">
+  <div class="inputCurrency">
+    <select
+      [value]="currencies"
+      formControlName="inCur"
+      (change)="convert(formData)"
+    >
+      <option *ngFor="let item of currencies">{{item.ccy}}</option>
+      <option>UAH</option>
+    </select>
+    <div class="content">
+      <input
+        class="in"
+        type="number"
+        (input)="convert(formData)"
+        formControlName="inValue"
+      >
+      <span class="border"></span>
+    </div>
+  </div>
+  <div class="switch" (click)="switch()">
+    <i class="fas fa-exchange-alt"></i>
+  </div>
+  <div class="outputCurrency">
+    <select
+      [value]="currencies"
+      formControlName="outCur"
+      (change)="convert(formData)"
+    >
+      <option>UAH</option>
+      <option *ngFor="let item of currencies">{{item.ccy}}</option>
+    </select>
+    <input
+      type="number"
+      formControlName="outValue"
+      [value]="result" readonly
+    >
+  </div>
+</form>
