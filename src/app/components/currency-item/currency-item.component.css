@@ -13,10 +13,12 @@
   width: 160px;
   align-items: center;
 }
+
 .tb-row .cur-info p:last-child {
   font-size: 16px;
   color: rgba(0, 0, 0, 0.54);
 }
+
 .tb-row .cur-name {
   padding-left: 40px;
 }

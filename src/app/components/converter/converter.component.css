@@ -30,24 +30,29 @@ select, input {
   border-radius: 4px;
   flex: 1 1 30%;
 }
+
 .calc i {
   font-size: 22px;
   font-weight: 600;
   transform: rotate(90deg);
 }
+
 .calc select {
   border-bottom: 1px rgba(0, 0, 0, 0.12) solid;
   line-height: 1.5;
   padding: 8px 24px;
   color: black;
 }
+
 .calc .switch {
   margin-left: 24px;
 }
+
 .calc .switch:hover {
   color: black;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px 0px, rgba(0, 0, 0, 0.3) 0px 0px 4px 0px;
 }
+
 .calc input {
   border-bottom: 1px rgba(0, 0, 0, 0.12) solid;
   padding: 10px;
@@ -58,7 +63,6 @@ select, input {
   display: flex;
   justify-content: space-between;
 }
-
 
 .content {
   position: relative;
